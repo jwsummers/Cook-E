@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #d5def5;
+    color: #333;
+  }
+  
+  .navbar-links a {
+    color: #333;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+}
+
+.user-info span {
+    font-weight: bold;
+}
+
+.user-info a {
+    color: #6643b5;
+    text-decoration: none;
+}
+
+.user-info a:hover {
+    text-decoration: underline;
+}
